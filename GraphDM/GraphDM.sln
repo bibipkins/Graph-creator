@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphView", "Graph.View\GraphView.csproj", "{928A0BBD-D197-4929-A630-494775062694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphModel", "Graph.Model\GraphModel.csproj", "{B82D2F5A-4B75-4B91-B830-A01974962C9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphViewModel", "Graph.ViewModel\GraphViewModel.csproj", "{F0CB2BF4-DAA1-4B87-A40E-5FFFAB6D5B61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomInteractiveCommand", "CustomInteractiveCommand\CustomInteractiveCommand.csproj", "{22015B39-546A-4B74-A9A1-882D67F9B249}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{928A0BBD-D197-4929-A630-494775062694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{928A0BBD-D197-4929-A630-494775062694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{928A0BBD-D197-4929-A630-494775062694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{928A0BBD-D197-4929-A630-494775062694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B82D2F5A-4B75-4B91-B830-A01974962C9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82D2F5A-4B75-4B91-B830-A01974962C9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82D2F5A-4B75-4B91-B830-A01974962C9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82D2F5A-4B75-4B91-B830-A01974962C9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0CB2BF4-DAA1-4B87-A40E-5FFFAB6D5B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0CB2BF4-DAA1-4B87-A40E-5FFFAB6D5B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0CB2BF4-DAA1-4B87-A40E-5FFFAB6D5B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0CB2BF4-DAA1-4B87-A40E-5FFFAB6D5B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22015B39-546A-4B74-A9A1-882D67F9B249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22015B39-546A-4B74-A9A1-882D67F9B249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22015B39-546A-4B74-A9A1-882D67F9B249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22015B39-546A-4B74-A9A1-882D67F9B249}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

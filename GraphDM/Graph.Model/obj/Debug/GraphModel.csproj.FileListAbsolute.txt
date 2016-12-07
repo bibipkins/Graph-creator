@@ -1,0 +1,13 @@
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.Model\bin\Debug\Graph.Model.dll
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.Model\bin\Debug\Graph.Model.pdb
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.Model\obj\Debug\Graph.Model.dll
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.Model\obj\Debug\Graph.Model.pdb
+C:\Users\асус таб\Desktop\GraphDM\Graph.Model\bin\Debug\Graph.Model.dll
+C:\Users\асус таб\Desktop\GraphDM\Graph.Model\bin\Debug\Graph.Model.pdb
+C:\Users\асус таб\Desktop\GraphDM\Graph.Model\obj\Debug\GraphModel.csprojResolveAssemblyReference.cache
+C:\Users\асус таб\Desktop\GraphDM\Graph.Model\obj\Debug\Graph.Model.dll
+C:\Users\асус таб\Desktop\GraphDM\Graph.Model\obj\Debug\Graph.Model.pdb
+E:\GraphDM\Graph.Model\bin\Debug\Graph.Model.dll
+E:\GraphDM\Graph.Model\bin\Debug\Graph.Model.pdb
+E:\GraphDM\Graph.Model\obj\Debug\Graph.Model.dll
+E:\GraphDM\Graph.Model\obj\Debug\Graph.Model.pdb

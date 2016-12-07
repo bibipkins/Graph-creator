@@ -1,0 +1,76 @@
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.View\bin\Debug\GraphDM.exe.config
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.View\bin\Debug\GraphDM.exe
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.View\bin\Debug\GraphDM.pdb
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.View\bin\Debug\CustomInteractiveCommand.dll
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.View\bin\Debug\Graph.ViewModel.dll
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.View\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.View\bin\Debug\Graph.Model.dll
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.View\bin\Debug\CustomInteractiveCommand.pdb
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.View\bin\Debug\Graph.ViewModel.pdb
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.View\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.View\bin\Debug\Graph.Model.pdb
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.View\obj\Debug\GraphView.csprojResolveAssemblyReference.cache
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.View\obj\Debug\MainWindow.baml
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.View\obj\Debug\MainWindow.g.cs
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.View\obj\Debug\App.g.cs
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.View\obj\Debug\GraphDM_MarkupCompile.cache
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.View\obj\Debug\GraphDM.g.resources
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.View\obj\Debug\Graph.View.Properties.Resources.resources
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.View\obj\Debug\GraphView.csproj.GenerateResource.Cache
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.View\obj\Debug\GraphDM.exe
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.View\obj\Debug\GraphDM.pdb
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\bin\Debug\GraphDM.exe.config
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\obj\Debug\GraphDM.exe
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\obj\Debug\GraphDM.pdb
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\bin\Debug\GraphDM.exe
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\bin\Debug\GraphDM.pdb
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\bin\Debug\CustomInteractiveCommand.dll
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\bin\Debug\Graph.ViewModel.dll
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\bin\Debug\Graph.Model.dll
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\bin\Debug\CustomInteractiveCommand.pdb
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\bin\Debug\Graph.ViewModel.pdb
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\bin\Debug\Graph.Model.pdb
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\obj\Debug\GraphView.csprojResolveAssemblyReference.cache
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\obj\Debug\MainWindow.baml
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\obj\Debug\MainWindow.g.cs
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\obj\Debug\App.g.cs
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\obj\Debug\GraphDM_MarkupCompile.cache
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\obj\Debug\GraphDM.g.resources
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\obj\Debug\Graph.View.Properties.Resources.resources
+C:\Users\асус таб\Desktop\GraphDM\Graph.View\obj\Debug\GraphView.csproj.GenerateResource.Cache
+E:\GraphDM\Graph.View\obj\Debug\GraphView.csprojResolveAssemblyReference.cache
+E:\GraphDM\Graph.View\obj\Debug\MainWindow.baml
+E:\GraphDM\Graph.View\obj\Debug\MainWindow.g.cs
+E:\GraphDM\Graph.View\obj\Debug\App.g.cs
+E:\GraphDM\Graph.View\obj\Debug\GraphDM_MarkupCompile.cache
+E:\GraphDM\Graph.View\obj\Debug\GraphDM.g.resources
+E:\GraphDM\Graph.View\obj\Debug\Graph.View.Properties.Resources.resources
+E:\GraphDM\Graph.View\obj\Debug\GraphView.csproj.GenerateResource.Cache
+E:\GraphDM\Graph.View\bin\Debug\GraphDM.exe.config
+E:\GraphDM\Graph.View\bin\Debug\GraphDM.exe
+E:\GraphDM\Graph.View\bin\Debug\GraphDM.pdb
+E:\GraphDM\Graph.View\bin\Debug\CustomInteractiveCommand.dll
+E:\GraphDM\Graph.View\bin\Debug\Graph.ViewModel.dll
+E:\GraphDM\Graph.View\bin\Debug\Microsoft.Expression.Interactions.dll
+E:\GraphDM\Graph.View\bin\Debug\Graph.Model.dll
+E:\GraphDM\Graph.View\bin\Debug\CustomInteractiveCommand.pdb
+E:\GraphDM\Graph.View\bin\Debug\Graph.ViewModel.pdb
+E:\GraphDM\Graph.View\bin\Debug\Microsoft.Expression.Interactions.xml
+E:\GraphDM\Graph.View\bin\Debug\Graph.Model.pdb
+E:\GraphDM\Graph.View\obj\Debug\GraphDM.exe
+E:\GraphDM\Graph.View\obj\Debug\GraphDM.pdb
+E:\GraphDM\Graph.View\bin\Debug\DocX.dll
+C:\Users\bibip_000\Documents\Visual Studio 2013\Projects\GraphDM\Graph.View\bin\Debug\DocX.dll

@@ -1,0 +1,44 @@
+C:\Users\bibip_000\Documents\Visual Studio 2013\Projects\Graph\CustomInteractiveCommand\bin\Debug\CustomInteractiveCommand.dll
+C:\Users\bibip_000\Documents\Visual Studio 2013\Projects\Graph\CustomInteractiveCommand\bin\Debug\CustomInteractiveCommand.pdb
+C:\Users\bibip_000\Documents\Visual Studio 2013\Projects\Graph\CustomInteractiveCommand\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\bibip_000\Documents\Visual Studio 2013\Projects\Graph\CustomInteractiveCommand\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\bibip_000\Documents\Visual Studio 2013\Projects\Graph\CustomInteractiveCommand\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\bibip_000\Documents\Visual Studio 2013\Projects\Graph\CustomInteractiveCommand\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\bibip_000\Documents\Visual Studio 2013\Projects\Graph\CustomInteractiveCommand\obj\Debug\CustomInteractiveCommand.csprojResolveAssemblyReference.cache
+C:\Users\bibip_000\Documents\Visual Studio 2013\Projects\Graph\CustomInteractiveCommand\obj\Debug\CustomInteractiveCommand.dll
+C:\Users\bibip_000\Documents\Visual Studio 2013\Projects\Graph\CustomInteractiveCommand\obj\Debug\CustomInteractiveCommand.pdb
+C:\Users\bibip_000\Documents\Visual Studio 2013\Projects\KruskalAlgorithm\CustomInteractiveCommand\bin\Debug\CustomInteractiveCommand.dll
+C:\Users\bibip_000\Documents\Visual Studio 2013\Projects\KruskalAlgorithm\CustomInteractiveCommand\bin\Debug\CustomInteractiveCommand.pdb
+C:\Users\bibip_000\Documents\Visual Studio 2013\Projects\KruskalAlgorithm\CustomInteractiveCommand\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\bibip_000\Documents\Visual Studio 2013\Projects\KruskalAlgorithm\CustomInteractiveCommand\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\bibip_000\Documents\Visual Studio 2013\Projects\KruskalAlgorithm\CustomInteractiveCommand\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\bibip_000\Documents\Visual Studio 2013\Projects\KruskalAlgorithm\CustomInteractiveCommand\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\bibip_000\Documents\Visual Studio 2013\Projects\KruskalAlgorithm\CustomInteractiveCommand\obj\Debug\CustomInteractiveCommand.csprojResolveAssemblyReference.cache
+C:\Users\bibip_000\Documents\Visual Studio 2013\Projects\KruskalAlgorithm\CustomInteractiveCommand\obj\Debug\CustomInteractiveCommand.dll
+C:\Users\bibip_000\Documents\Visual Studio 2013\Projects\KruskalAlgorithm\CustomInteractiveCommand\obj\Debug\CustomInteractiveCommand.pdb
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\CustomInteractiveCommand\bin\Debug\CustomInteractiveCommand.dll
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\CustomInteractiveCommand\bin\Debug\CustomInteractiveCommand.pdb
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\CustomInteractiveCommand\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\CustomInteractiveCommand\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\CustomInteractiveCommand\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\CustomInteractiveCommand\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\CustomInteractiveCommand\obj\Debug\CustomInteractiveCommand.dll
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\CustomInteractiveCommand\obj\Debug\CustomInteractiveCommand.pdb
+C:\Users\асус таб\Desktop\GraphDM\CustomInteractiveCommand\bin\Debug\CustomInteractiveCommand.dll
+C:\Users\асус таб\Desktop\GraphDM\CustomInteractiveCommand\bin\Debug\CustomInteractiveCommand.pdb
+C:\Users\асус таб\Desktop\GraphDM\CustomInteractiveCommand\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\асус таб\Desktop\GraphDM\CustomInteractiveCommand\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\асус таб\Desktop\GraphDM\CustomInteractiveCommand\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\асус таб\Desktop\GraphDM\CustomInteractiveCommand\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\асус таб\Desktop\GraphDM\CustomInteractiveCommand\obj\Debug\CustomInteractiveCommand.csprojResolveAssemblyReference.cache
+C:\Users\асус таб\Desktop\GraphDM\CustomInteractiveCommand\obj\Debug\CustomInteractiveCommand.dll
+C:\Users\асус таб\Desktop\GraphDM\CustomInteractiveCommand\obj\Debug\CustomInteractiveCommand.pdb
+E:\GraphDM\CustomInteractiveCommand\bin\Debug\CustomInteractiveCommand.dll
+E:\GraphDM\CustomInteractiveCommand\bin\Debug\CustomInteractiveCommand.pdb
+E:\GraphDM\CustomInteractiveCommand\bin\Debug\Microsoft.Expression.Interactions.dll
+E:\GraphDM\CustomInteractiveCommand\bin\Debug\System.Windows.Interactivity.dll
+E:\GraphDM\CustomInteractiveCommand\bin\Debug\Microsoft.Expression.Interactions.xml
+E:\GraphDM\CustomInteractiveCommand\bin\Debug\System.Windows.Interactivity.xml
+E:\GraphDM\CustomInteractiveCommand\obj\Debug\CustomInteractiveCommand.csprojResolveAssemblyReference.cache
+E:\GraphDM\CustomInteractiveCommand\obj\Debug\CustomInteractiveCommand.dll
+E:\GraphDM\CustomInteractiveCommand\obj\Debug\CustomInteractiveCommand.pdb

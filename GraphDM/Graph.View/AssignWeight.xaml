@@ -1,0 +1,22 @@
+﻿<Window x:Class="Graph.View.AssignWeight"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Призначення ваги" 
+        Height="165" Width="300"
+        MinHeight="165" MinWidth="300"
+        MaxHeight="165" MaxWidth="300"
+        WindowStartupLocation="CenterScreen"
+        Closing="Window_Closing">
+
+    <StackPanel FocusManager.FocusedElement="{Binding ElementName=txtWeight}">
+
+        <Label Content="Призначте вагу ребру" Margin="0,10,0,10"/>
+        <TextBox Name="txtWeight" TextAlignment="Center" VerticalContentAlignment="Center"
+                 Height="30" Width="250" Margin="0,0,0,10"
+                 PreviewTextInput="txtWeight_PreviewTextInput"/>
+        <Button Name="btnOK" Content="ОК" Click="btnOK_Click"
+                Background="Linen" Height="30" Width="250" Margin="0,0,0,10"/>
+
+    </StackPanel>
+
+</Window>

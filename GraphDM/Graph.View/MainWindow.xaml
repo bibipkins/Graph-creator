@@ -1,0 +1,276 @@
+﻿<Window x:Name="window" x:Class="GraphView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+        xmlns:graph="clr-namespace:GraphViewModel;assembly=Graph.ViewModel"    
+        xmlns:command="clr-namespace:CustomInteractiveCommand;assembly=CustomInteractiveCommand"
+        Title="Graph work"
+        Height="600" Width="800"
+        Left="{Binding ScreenLeft}"
+        Top="{Binding ScreenTop}"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.DataContext>
+        <graph:GraphViewModel/>
+    </Window.DataContext>
+
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="0,10,0,5"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Width" Value="130"/>
+            <Setter Property="Background" Value="Linen"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="{Binding CanvasHeight, Mode=TwoWay}"/>
+            <RowDefinition Height="200"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="{Binding CanvasWidth, Mode=TwoWay}"/>
+            <ColumnDefinition Width="180"/>
+        </Grid.ColumnDefinitions>
+
+        <Canvas Background="Linen" ClipToBounds="True"
+                Grid.Row="0" Grid.Column="0"
+                Name="canvas">
+
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="MouseLeftButtonDown">
+                    <command:InteractiveCommand Command="{Binding Path=LeftMouseDownCommand}"/>
+                </i:EventTrigger>
+                <i:EventTrigger EventName="MouseLeftButtonUp">
+                    <command:InteractiveCommand Command="{Binding Path=LeftMouseUpCommand}"/>
+                </i:EventTrigger>
+                <i:EventTrigger EventName="MouseRightButtonDown">
+                    <command:InteractiveCommand Command="{Binding Path=RightMouseDownCommand}"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+
+            <ItemsControl ItemsSource="{Binding EdgeItems}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <Canvas/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Line Stroke="{Binding Color}" StrokeThickness="4" 
+                              X1="{Binding V1.X}" Y1="{Binding V1.Y}"
+                              X2="{Binding V2.X}" Y2="{Binding V2.Y}"
+                              IsHitTestVisible="False"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <ItemsControl ItemsSource="{Binding EdgeItems}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <Canvas/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Polygon Fill="Red"
+                                 IsHitTestVisible="False"
+                                 Points="{Binding ArrowPoints}"
+                                 Opacity="{Binding ArrowOpacity}"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <ItemsControl ItemsSource="{Binding EdgeItems}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <Canvas/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Line 
+                                X1="{Binding V1.X}" Y1="{Binding V1.Y}"
+                                X2="{Binding V2.X}" Y2="{Binding V2.Y}"
+                                IsHitTestVisible="False" StrokeThickness="0"/>
+                            <Label 
+                                Background="LightBlue"
+                                Content="{Binding Weight}" 
+                                Margin="{Binding Margin}"
+                                FontSize="13"
+                                HorizontalAlignment="Center" 
+                                VerticalAlignment="Center"
+                                IsHitTestVisible="False"/>
+                        </Grid>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <ItemsControl ItemsSource="{Binding VertexItems}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <Canvas/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemContainerStyle>
+                    <Style TargetType="ContentPresenter">
+                        <Setter Property="Canvas.Left" Value="{Binding X}"/>
+                        <Setter Property="Canvas.Top" Value="{Binding Y}"/>
+                    </Style>
+                </ItemsControl.ItemContainerStyle>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Width="30" Height="30">
+                            <Ellipse 
+                                Width="30" Height="30"
+                                Fill="{Binding Color}" Stroke="Black" 
+                                IsHitTestVisible="False"/>
+                            <TextBlock 
+                                Text="{Binding ID}"
+                                FontSize="13"
+                                VerticalAlignment="Center" 
+                                HorizontalAlignment="Center" 
+                                IsHitTestVisible="False"/>
+                            <Grid.RenderTransform>
+                                <TranslateTransform X="-15" Y="-15" />
+                            </Grid.RenderTransform>
+                        </Grid>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </Canvas>
+
+        <GridSplitter
+            Height="4"
+            Grid.Row="0"
+            Opacity="0"
+            Grid.ColumnSpan="2"
+            VerticalAlignment="Bottom"
+            HorizontalAlignment="Stretch"/>
+
+        <Border BorderBrush="Black" BorderThickness="1,0,0,0"
+                Grid.Row="0" Grid.Column="1">
+            <ScrollViewer CanContentScroll="False">
+                <StackPanel>
+                    <Expander Header="Згенерувати граф" 
+                              Margin="0,10,0,0"
+                              Width="132"
+                              ClipToBounds="False"
+                              HorizontalAlignment="Center"
+                              HorizontalContentAlignment="Center">
+                        <StackPanel>
+                            <RadioButton Margin="0,10,0,0" IsChecked="{Binding Lab1Radio}"
+                                         HorizontalAlignment="Center">
+                                <Expander Header="Лабораторна 1"
+                                          IsExpanded="{Binding Lab1Radio}"
+                                          HorizontalContentAlignment="Left">
+                                    <StackPanel>
+                                        <TextBlock Text="Кількість вершин"
+                                                   Margin="0,5,0,0"/>
+                                        <TextBox Text="{Binding VertexNumber}"
+                                                 Height="30"
+                                                 Margin="0,10,0,0"
+                                                 VerticalContentAlignment="Center"
+                                                 HorizontalContentAlignment="Center"/>
+                                    </StackPanel>
+                                </Expander>
+                            </RadioButton>
+                            <RadioButton Margin="0,10,0,0" IsChecked="{Binding Lab2Radio}"
+                                         HorizontalAlignment="Center">
+                                <Expander Header="Лабораторна 2" 
+                                          IsExpanded="{Binding Lab2Radio}"
+                                          HorizontalContentAlignment="Left">
+                                    <StackPanel>
+                                        <TextBlock Text="Кількість вершин"
+                                                   Margin="0,5,0,0"/>
+                                        <TextBox Text="{Binding VertexNumber}" 
+                                                 Margin="0,10,0,0"
+                                                 Height="30"
+                                                 VerticalContentAlignment="Center"
+                                                 HorizontalContentAlignment="Center"/>
+                                        <TextBlock Margin="0,10,0,0"
+                                                   Text="Кількість непарних"/>
+                                        <TextBox Text="{Binding OddNumber}"
+                                                 Margin="0,10,0,0"
+                                                 Height="30"
+                                                 VerticalContentAlignment="Center"
+                                                 HorizontalContentAlignment="Center"/>
+                                    </StackPanel>
+                                </Expander>
+                            </RadioButton>
+                            <RadioButton Margin="0,10,0,0" IsChecked="{Binding Lab3Radio}"
+                                         HorizontalAlignment="Center">
+                                <Expander Header="Лабораторна 3"
+                                          IsExpanded="{Binding Lab3Radio}"
+                                          HorizontalContentAlignment="Left">
+                                    <StackPanel>
+                                        <TextBlock Text="Кількість вершин"
+                                                   Margin="0,5,0,0"/>
+                                        <TextBox Text="{Binding VertexNumber}" 
+                                                 Margin="0,10,0,0"
+                                                 Height="30"
+                                                 VerticalContentAlignment="Center"
+                                                 HorizontalContentAlignment="Center"/>
+                                    </StackPanel>
+                                </Expander>
+                            </RadioButton>
+                            <RadioButton Margin="0,10,0,0" IsChecked="{Binding Lab4Radio}"
+                                         HorizontalAlignment="Center">
+                                <Expander Header="Лабораторна 4"
+                                          IsExpanded="{Binding Lab4Radio}"
+                                          HorizontalContentAlignment="Left">
+                                    <StackPanel>
+                                        <CheckBox Content="Орієнтований"
+                                                  Margin="0,5,0,0"
+                                                  HorizontalAlignment="Center"
+                                                  IsChecked="{Binding Lab4Check}"/>
+                                        <TextBlock Text="Кількість вершин"
+                                                   Margin="0,10,0,0"/>
+                                        <TextBox Text="{Binding VertexNumber}" 
+                                                 Margin="0,10,0,0"
+                                                 Height="30"
+                                                 VerticalContentAlignment="Center"
+                                                 HorizontalContentAlignment="Center"/>
+                                    </StackPanel>
+                                </Expander>
+                            </RadioButton>
+                            
+                            <Button Content="Згенерувати"
+                                    Command="{Binding GenerateGraphCommand}"/>
+                            <Button Content="Знімок графа" Name="btnTakePicture"
+                                    Click="btnTakePicture_Click"/>
+                        </StackPanel>
+                    </Expander>
+
+                    <Separator Margin="0,10,0,0" Width="120" HorizontalAlignment="Center"/>
+
+                    <Label Content="Вага ребра" Margin="10,5,0,0"/>
+                    <TextBox Height="30" Width="130" Margin="0,10,0,5"
+                         HorizontalContentAlignment="Center"
+                         VerticalContentAlignment="Center"
+                         Text="{Binding EdgeWeight, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Button Content="Додати ребро"
+                        Command="{Binding AddEdgeCommand}"/>
+                    <Button Content="Видалити ребро"
+                        Command="{Binding RemoveEdgeCommand}"/>
+                    <Button Content="Очистити"
+                        Command="{Binding ClearCommand}"/>
+                    <Button Content="Знайти дерево"
+                        Command="{Binding FindMinTreeCommand}"/>
+                    <Button Name="btnExit" Content="Вихід" Click="btnExit_Click"/>
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+
+        <Border BorderBrush="Black" BorderThickness="0,1,0,0"
+                Grid.Row="2" Grid.ColumnSpan="2">
+            <ScrollViewer Name="scrollViewer" CanContentScroll="False" >
+                <TextBox Text="{Binding TextOutput, Mode=OneWay}" SizeChanged="TextBox_SizeChanged" IsReadOnly="True"/>
+            </ScrollViewer>
+        </Border>
+
+    </Grid>
+</Window>

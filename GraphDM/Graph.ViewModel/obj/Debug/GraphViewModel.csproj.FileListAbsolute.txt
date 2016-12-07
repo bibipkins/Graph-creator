@@ -1,0 +1,33 @@
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.ViewModel\obj\Debug\Graph.ViewModel.dll
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.ViewModel\bin\Debug\Graph.ViewModel.dll
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.ViewModel\bin\Debug\Graph.ViewModel.pdb
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.ViewModel\bin\Debug\Graph.Model.dll
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.ViewModel\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.ViewModel\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.ViewModel\bin\Debug\Graph.Model.pdb
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.ViewModel\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.ViewModel\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.ViewModel\obj\Debug\Graph.ViewModel.pdb
+C:\Users\bibip_000\Documents\visual studio 2013\Projects\GraphDM\Graph.ViewModel\obj\Debug\GraphViewModel.csprojResolveAssemblyReference.cache
+C:\Users\асус таб\Desktop\GraphDM\Graph.ViewModel\bin\Debug\Graph.ViewModel.dll
+C:\Users\асус таб\Desktop\GraphDM\Graph.ViewModel\bin\Debug\Graph.ViewModel.pdb
+C:\Users\асус таб\Desktop\GraphDM\Graph.ViewModel\bin\Debug\Graph.Model.dll
+C:\Users\асус таб\Desktop\GraphDM\Graph.ViewModel\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\асус таб\Desktop\GraphDM\Graph.ViewModel\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\асус таб\Desktop\GraphDM\Graph.ViewModel\bin\Debug\Graph.Model.pdb
+C:\Users\асус таб\Desktop\GraphDM\Graph.ViewModel\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\асус таб\Desktop\GraphDM\Graph.ViewModel\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\асус таб\Desktop\GraphDM\Graph.ViewModel\obj\Debug\GraphViewModel.csprojResolveAssemblyReference.cache
+C:\Users\асус таб\Desktop\GraphDM\Graph.ViewModel\obj\Debug\Graph.ViewModel.dll
+C:\Users\асус таб\Desktop\GraphDM\Graph.ViewModel\obj\Debug\Graph.ViewModel.pdb
+E:\GraphDM\Graph.ViewModel\bin\Debug\Graph.ViewModel.dll
+E:\GraphDM\Graph.ViewModel\bin\Debug\Graph.ViewModel.pdb
+E:\GraphDM\Graph.ViewModel\bin\Debug\Graph.Model.dll
+E:\GraphDM\Graph.ViewModel\bin\Debug\Microsoft.Expression.Interactions.dll
+E:\GraphDM\Graph.ViewModel\bin\Debug\System.Windows.Interactivity.dll
+E:\GraphDM\Graph.ViewModel\bin\Debug\Graph.Model.pdb
+E:\GraphDM\Graph.ViewModel\bin\Debug\Microsoft.Expression.Interactions.xml
+E:\GraphDM\Graph.ViewModel\bin\Debug\System.Windows.Interactivity.xml
+E:\GraphDM\Graph.ViewModel\obj\Debug\GraphViewModel.csprojResolveAssemblyReference.cache
+E:\GraphDM\Graph.ViewModel\obj\Debug\Graph.ViewModel.dll
+E:\GraphDM\Graph.ViewModel\obj\Debug\Graph.ViewModel.pdb
