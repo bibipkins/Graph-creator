@@ -1,0 +1,63 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   GraphDM_Installer/GraphDM_Installer.sln
+#	new file:   GraphDM_Installer/GraphDM_Installer.v12.suo
+#	new file:   GraphDM_Installer/GraphDM_Installer/Debug/Graph creator Setup.msi
+#	new file:   GraphDM_Installer/GraphDM_Installer/Debug/setup.exe
+#	new file:   GraphDM_Installer/GraphDM_Installer/GraphDM_Installer.vdproj
+#	new file:   GraphDM_Installer/GraphDM_Installer/icon.ico
+#	new file:   GraphDM_Installer/ICON.png
+#	new file:   GraphDM_Installer/icon.ico
+#	new file:   GraphDM_Installer/packages/DocX.1.0.0.22/DocX.1.0.0.22.nupkg
+#	new file:   GraphDM_Installer/packages/DocX.1.0.0.22/lib/net40/DocX.dll
+#	new file:   GraphDM_Installer/packages/Microsoft.Office.Interop.Word.15.0.4797.1003/Microsoft.Office.Interop.Word.15.0.4797.1003.nupkg
+#	new file:   GraphDM_Installer/packages/Microsoft.Office.Interop.Word.15.0.4797.1003/lib/net20/Microsoft.Office.Interop.Word.dll
+#	new file:   GraphDM_Installer/packages/System.Windows.Interactivity.WPF.2.0.20525/System.Windows.Interactivity.WPF.2.0.20525.nupkg
+#	new file:   GraphDM_Installer/packages/System.Windows.Interactivity.WPF.2.0.20525/lib/net40/Microsoft.Expression.Interactions.dll
+#	new file:   GraphDM_Installer/packages/System.Windows.Interactivity.WPF.2.0.20525/lib/net40/Microsoft.Expression.Interactions.xml
+#	new file:   GraphDM_Installer/packages/System.Windows.Interactivity.WPF.2.0.20525/lib/net40/System.Windows.Interactivity.dll
+#	new file:   GraphDM_Installer/packages/System.Windows.Interactivity.WPF.2.0.20525/lib/net40/System.Windows.Interactivity.xml
+#
+# Changes not staged for commit:
+#	modified:   GraphDM/Graph.View/GraphView.csproj
+#	modified:   GraphDM/Graph.View/Properties/AssemblyInfo.cs
+#	modified:   GraphDM/Graph.View/bin/Debug/Graph output.docx
+#	deleted:    GraphDM/Graph.View/bin/Debug/GraphDM.exe
+#	deleted:    GraphDM/Graph.View/bin/Debug/GraphDM.exe.config
+#	deleted:    GraphDM/Graph.View/bin/Debug/GraphDM.pdb
+#	deleted:    GraphDM/Graph.View/bin/Debug/GraphDM.vshost.exe
+#	modified:   GraphDM/Graph.View/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+#	deleted:    GraphDM/Graph.View/obj/Debug/GraphDM.exe
+#	deleted:    GraphDM/Graph.View/obj/Debug/GraphDM.g.resources
+#	deleted:    GraphDM/Graph.View/obj/Debug/GraphDM.pdb
+#	deleted:    GraphDM/Graph.View/obj/Debug/GraphDM_MarkupCompile.cache
+#	modified:   GraphDM/Graph.View/obj/Debug/GraphDM_MarkupCompile.i.cache
+#	modified:   GraphDM/Graph.View/obj/Debug/GraphView.csproj.FileListAbsolute.txt
+#	deleted:    GraphDM/Graph.View/obj/Debug/GraphView.csprojResolveAssemblyReference.cache
+#	modified:   GraphDM/Graph.View/obj/Debug/MainWindow.baml
+#	modified:   GraphDM/Graph.View/obj/Debug/MainWindow.g.cs
+#	modified:   GraphDM/Graph.View/obj/Debug/MainWindow.g.i.cs
+#
+# Untracked files:
+#	GraphDM/Graph.View/GraphView.csproj.user
+#	GraphDM/Graph.View/Properties/app.manifest
+#	GraphDM/Graph.View/bin/Debug/Graph creator.exe
+#	GraphDM/Graph.View/bin/Debug/Graph creator.exe.config
+#	GraphDM/Graph.View/bin/Debug/Graph creator.pdb
+#	GraphDM/Graph.View/bin/Debug/Graph creator.vshost.exe
+#	GraphDM/Graph.View/bin/Debug/Graph creator.vshost.exe.config
+#	GraphDM/Graph.View/bin/Debug/icon.ico
+#	GraphDM/Graph.View/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+#	GraphDM/Graph.View/obj/Debug/Graph creator.exe
+#	GraphDM/Graph.View/obj/Debug/Graph creator.g.resources
+#	GraphDM/Graph.View/obj/Debug/Graph creator.pdb
+#	GraphDM/Graph.View/obj/Debug/Graph creator_MarkupCompile.cache
+#	GraphDM/Graph.View/obj/Debug/Graph creator_MarkupCompile.i.cache
+#	GraphDM/Graph.View/obj/Debug/TempPE/
+#
+
