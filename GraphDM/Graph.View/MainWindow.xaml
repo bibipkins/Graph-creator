@@ -9,7 +9,8 @@
         Left="{Binding ScreenLeft}"
         Top="{Binding ScreenTop}"
         ResizeMode="NoResize"
-        WindowStartupLocation="CenterScreen">
+        WindowStartupLocation="CenterScreen"
+        Icon="icon.ico">
 
     <Window.DataContext>
         <graph:GraphViewModel/>

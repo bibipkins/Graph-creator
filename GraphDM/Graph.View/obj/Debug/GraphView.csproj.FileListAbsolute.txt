@@ -95,3 +95,4 @@ C:\Users\bibip_000\Documents\GitHub\Graph-creator\GraphDM\Graph.View\obj\Debug\G
 C:\Users\bibip_000\Documents\GitHub\Graph-creator\GraphDM\Graph.View\obj\Debug\Graph creator.g.resources
 C:\Users\bibip_000\Documents\GitHub\Graph-creator\GraphDM\Graph.View\obj\Debug\Graph creator.exe
 C:\Users\bibip_000\Documents\GitHub\Graph-creator\GraphDM\Graph.View\obj\Debug\Graph creator.pdb
+C:\Users\bibip_000\Documents\GitHub\Graph-creator\GraphDM\Graph.View\obj\Debug\GraphView.csprojResolveAssemblyReference.cache
