@@ -25,7 +25,7 @@
         </Style>
     </Window.Resources>
 
-    <Grid>
+    <Grid Background="#493d48">
 
         <Grid.RowDefinitions>
             <RowDefinition Height="{Binding CanvasHeight, Mode=TwoWay}"/>
@@ -38,7 +38,7 @@
 
         <Canvas Background="Linen" ClipToBounds="True"
                 Grid.Row="0" Grid.Column="0"
-                Name="canvas">
+                Name="canvas" Margin="4,4,4,0">
 
             <i:Interaction.Triggers>
                 <i:EventTrigger EventName="MouseLeftButtonDown">
@@ -152,126 +152,124 @@
             VerticalAlignment="Bottom"
             HorizontalAlignment="Stretch"/>
 
-        <Border BorderBrush="Black" BorderThickness="1,0,0,0"
-                Grid.Row="0" Grid.Column="1">
-            <ScrollViewer CanContentScroll="False">
-                <StackPanel>
-                    <Expander Header="Згенерувати граф" 
-                              Margin="0,10,0,0"
-                              Width="132"
-                              ClipToBounds="False"
-                              HorizontalAlignment="Center"
-                              HorizontalContentAlignment="Center">
-                        <StackPanel>
-                            <RadioButton Margin="0,10,0,0" IsChecked="{Binding Lab1Radio}"
+        <ScrollViewer CanContentScroll="False"
+                          Grid.Row="0" Grid.Column="1" Margin="0,4,4,0" Background="White">
+            <StackPanel>
+                <Expander Header="Згенерувати граф" 
+                          Margin="0,10,0,0"
+                          Width="132"
+                          ClipToBounds="False"
+                          HorizontalAlignment="Center"
+                          HorizontalContentAlignment="Center">
+                    <StackPanel>
+                        <RadioButton Margin="0,10,0,0" IsChecked="{Binding Lab1Radio}"
                                          HorizontalAlignment="Center">
-                                <Expander Header="Лабораторна 1"
+                            <Expander Header="Лабораторна 1"
                                           IsExpanded="{Binding Lab1Radio}"
                                           HorizontalContentAlignment="Left">
-                                    <StackPanel>
-                                        <TextBlock Text="Кількість вершин"
+                                <StackPanel>
+                                    <TextBlock Text="Кількість вершин"
                                                    Margin="0,5,0,0"/>
-                                        <TextBox Text="{Binding VertexNumber}"
+                                    <TextBox Text="{Binding VertexNumber}"
                                                  Height="30"
                                                  Margin="0,10,0,0"
                                                  VerticalContentAlignment="Center"
                                                  HorizontalContentAlignment="Center"/>
-                                    </StackPanel>
-                                </Expander>
-                            </RadioButton>
-                            <RadioButton Margin="0,10,0,0" IsChecked="{Binding Lab2Radio}"
+                                </StackPanel>
+                            </Expander>
+                        </RadioButton>
+                        <RadioButton Margin="0,10,0,0" IsChecked="{Binding Lab2Radio}"
                                          HorizontalAlignment="Center">
-                                <Expander Header="Лабораторна 2" 
+                            <Expander Header="Лабораторна 2" 
                                           IsExpanded="{Binding Lab2Radio}"
                                           HorizontalContentAlignment="Left">
-                                    <StackPanel>
-                                        <TextBlock Text="Кількість вершин"
+                                <StackPanel>
+                                    <TextBlock Text="Кількість вершин"
                                                    Margin="0,5,0,0"/>
-                                        <TextBox Text="{Binding VertexNumber}" 
+                                    <TextBox Text="{Binding VertexNumber}" 
                                                  Margin="0,10,0,0"
                                                  Height="30"
                                                  VerticalContentAlignment="Center"
                                                  HorizontalContentAlignment="Center"/>
-                                        <TextBlock Margin="0,10,0,0"
+                                    <TextBlock Margin="0,10,0,0"
                                                    Text="Кількість непарних"/>
-                                        <TextBox Text="{Binding OddNumber}"
+                                    <TextBox Text="{Binding OddNumber}"
                                                  Margin="0,10,0,0"
                                                  Height="30"
                                                  VerticalContentAlignment="Center"
                                                  HorizontalContentAlignment="Center"/>
-                                    </StackPanel>
-                                </Expander>
-                            </RadioButton>
-                            <RadioButton Margin="0,10,0,0" IsChecked="{Binding Lab3Radio}"
+                                </StackPanel>
+                            </Expander>
+                        </RadioButton>
+                        <RadioButton Margin="0,10,0,0" IsChecked="{Binding Lab3Radio}"
                                          HorizontalAlignment="Center">
-                                <Expander Header="Лабораторна 3"
+                            <Expander Header="Лабораторна 3"
                                           IsExpanded="{Binding Lab3Radio}"
                                           HorizontalContentAlignment="Left">
-                                    <StackPanel>
-                                        <TextBlock Text="Кількість вершин"
+                                <StackPanel>
+                                    <TextBlock Text="Кількість вершин"
                                                    Margin="0,5,0,0"/>
-                                        <TextBox Text="{Binding VertexNumber}" 
+                                    <TextBox Text="{Binding VertexNumber}" 
                                                  Margin="0,10,0,0"
                                                  Height="30"
                                                  VerticalContentAlignment="Center"
                                                  HorizontalContentAlignment="Center"/>
-                                    </StackPanel>
-                                </Expander>
-                            </RadioButton>
-                            <RadioButton Margin="0,10,0,0" IsChecked="{Binding Lab4Radio}"
+                                </StackPanel>
+                            </Expander>
+                        </RadioButton>
+                        <RadioButton Margin="0,10,0,0" IsChecked="{Binding Lab4Radio}"
                                          HorizontalAlignment="Center">
-                                <Expander Header="Лабораторна 4"
+                            <Expander Header="Лабораторна 4"
                                           IsExpanded="{Binding Lab4Radio}"
                                           HorizontalContentAlignment="Left">
-                                    <StackPanel>
-                                        <CheckBox Content="Орієнтований"
+                                <StackPanel>
+                                    <CheckBox Content="Орієнтований"
                                                   Margin="0,5,0,0"
                                                   HorizontalAlignment="Center"
                                                   IsChecked="{Binding Lab4Check}"/>
-                                        <TextBlock Text="Кількість вершин"
+                                    <TextBlock Text="Кількість вершин"
                                                    Margin="0,10,0,0"/>
-                                        <TextBox Text="{Binding VertexNumber}" 
+                                    <TextBox Text="{Binding VertexNumber}" 
                                                  Margin="0,10,0,0"
                                                  Height="30"
                                                  VerticalContentAlignment="Center"
                                                  HorizontalContentAlignment="Center"/>
-                                    </StackPanel>
-                                </Expander>
-                            </RadioButton>
-                            
-                            <Button Content="Згенерувати"
+                                </StackPanel>
+                            </Expander>
+                        </RadioButton>
+
+                        <Button Content="Згенерувати"
                                     Command="{Binding GenerateGraphCommand}"/>
-                            <Button Content="Знімок графа" Name="btnTakePicture"
+                        <Button Content="Знімок графа" Name="btnTakePicture"
                                     Click="btnTakePicture_Click"/>
-                        </StackPanel>
-                    </Expander>
+                    </StackPanel>
+                </Expander>
 
-                    <Separator Margin="0,10,0,0" Width="120" HorizontalAlignment="Center"/>
+                <Separator Margin="0,10,0,0" Width="120" HorizontalAlignment="Center"/>
 
-                    <Label Content="Вага ребра" Margin="10,5,0,0"/>
-                    <TextBox Height="30" Width="130" Margin="0,10,0,5"
+                <Label Content="Вага ребра" Margin="10,5,0,0"/>
+                <TextBox Height="30" Width="130" Margin="0,10,0,5"
                          HorizontalContentAlignment="Center"
                          VerticalContentAlignment="Center"
                          Text="{Binding EdgeWeight, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
-                    <Button Content="Додати ребро"
+                <Button Content="Додати ребро"
                         Command="{Binding AddEdgeCommand}"/>
-                    <Button Content="Видалити ребро"
+                <Button Content="Видалити ребро"
                         Command="{Binding RemoveEdgeCommand}"/>
-                    <Button Content="Очистити"
+                <Button Content="Очистити"
                         Command="{Binding ClearCommand}"/>
-                    <Button Content="Знайти дерево"
+                <Button Content="Знайти дерево"
                         Command="{Binding FindMinTreeCommand}"/>
-                    <Button Name="btnExit" Content="Вихід" Click="btnExit_Click"/>
-                </StackPanel>
-            </ScrollViewer>
-        </Border>
+                <Button Name="btnExit" Content="Вихід" Click="btnExit_Click"/>
+            </StackPanel>
+        </ScrollViewer>
 
-        <Border BorderBrush="Black" BorderThickness="0,1,0,0"
-                Grid.Row="2" Grid.ColumnSpan="2">
-            <ScrollViewer Name="scrollViewer" CanContentScroll="False" >
-                <TextBox Text="{Binding TextOutput, Mode=OneWay}" SizeChanged="TextBox_SizeChanged" IsReadOnly="True"/>
-            </ScrollViewer>
-        </Border>
+        <ScrollViewer Name="scrollViewer" CanContentScroll="False" 
+                          Grid.Row="2" Grid.ColumnSpan="2" Margin="4">
+            <TextBox Text="{Binding TextOutput, Mode=OneWay}" 
+                     SizeChanged="TextBox_SizeChanged" 
+                     IsReadOnly="True"/>
+        </ScrollViewer>
 
     </Grid>
 </Window>

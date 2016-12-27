@@ -17,7 +17,7 @@ namespace GraphViewModel
         {
             InitCommands();
 
-            _generator = new GraphGenerator(_gridSizeX, _gridSizeY, 100, 100) { GridLeft = 30, GridTop = 30 };
+            _generator = new GraphGenerator(_gridSizeX, _gridSizeY, 100, 100) { GridLeft = 100, GridTop = 30 };
         }
 
         public void GenerateGraph()
